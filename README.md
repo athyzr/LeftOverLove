@@ -22,7 +22,7 @@ Ingin mencoba aplikasi tanpa melakukan build project?
 
 | Food Detail | Restaurant Detail | Donation History |
 |--------------|-------------------|------------------|
-| <img src="docs/screenshots/DetailMakanan.jpeg" width="220"/> | <img src="docs/screenshots/DetailResto.jpeg" width="220"/> | <img src="docs/screenshots/RiwayatDonasi.jpeg" width="220"/> |
+| <img src="docs/screenshots/detailMakanan.jpeg" width="220"/> | <img src="docs/screenshots/DetailResto.jpeg" width="220"/> | <img src="docs/screenshots/RiwayatDonasi.jpeg" width="220"/> |
 
 | Activity |
 |----------|
