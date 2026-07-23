@@ -1,67 +1,157 @@
-# LeftOverLove
+# 🍱 LeftOverLove
 
-LeftOverLove adalah aplikasi Android berbasis Kotlin dan Jetpack Compose yang ditujukan untuk membantu mengurangi pemborosan makanan melalui fitur donasi, pemesanan, serta interaksi antara pengguna dan restoran.
+LeftOverLove adalah aplikasi Android berbasis **Kotlin** dan **Jetpack Compose** yang bertujuan membantu mengurangi pemborosan makanan (*food waste*) dengan menghubungkan restoran dan pengguna melalui fitur donasi makanan, pemesanan, serta pengelolaan aktivitas pengguna.
 
-## Fitur Utama
+---
 
-- Splash screen saat aplikasi dimulai
-- Login dan registrasi pengguna
-- Halaman beranda untuk melihat restoran dan makanan
-- Detail makanan dan detail restoran
-- Fitur donasi makanan
-- Halaman aktivitas, donasi, dan favorit pengguna
-- Profil pengguna beserta opsi edit profil
+## 📱 Download APK
 
-## Teknologi yang Digunakan
+Ingin mencoba aplikasi tanpa melakukan build project?
+
+➡️ **Download versi terbaru melalui halaman Releases**
+
+**🔗 https://github.com/athyzr/LeftOverLove/releases/latest**
+
+---
+
+## 📸 Screenshots
+
+| Splash Screen | Login | Home |
+|---------------|-------|------|
+| ![](docs/screenshots/splash.png) | ![](docs/screenshots/login.png) | ![](docs/screenshots/home.png) |
+
+| Food Detail | Restaurant Detail | Donation |
+|--------------|-------------------|----------|
+| ![](docs/screenshots/food-detail.png) | ![](docs/screenshots/restaurant-detail.png) | ![](docs/screenshots/donation.png) |
+
+| Favorites | Activity | Profile |
+|------------|----------|----------|
+| ![](docs/screenshots/favorite.png) | ![](docs/screenshots/activity.png) | ![](docs/screenshots/profile.png) |
+
+---
+
+# ✨ Features
+
+- 🚀 Splash Screen
+- 🔐 User Authentication (Login & Register)
+- 🍽 Browse Restaurants & Foods
+- 📄 Food Detail
+- 🏪 Restaurant Detail
+- ❤️ Favorite Foods
+- 🎁 Food Donation
+- 📋 User Activity
+- 👤 User Profile
+- ✏️ Edit Profile
+
+---
+
+# 🛠 Tech Stack
 
 - Kotlin
 - Jetpack Compose
-- Navigation Compose
 - Material 3
+- Navigation Compose
 - Firebase Authentication
-- Firebase Realtime Database
 - Firebase Firestore
+- Firebase Realtime Database
 - Gradle Kotlin DSL
 
-## Prasyarat
+---
 
-Sebelum menjalankan proyek, pastikan Anda telah menginstal:
+# 🏗 Architecture
+
+The application follows the MVVM (Model-View-ViewModel) architecture.
+
+```
+UI (Jetpack Compose)
+        │
+   ViewModel
+        │
+   Repository
+        │
+Firebase Services
+```
+
+---
+
+# 📂 Project Structure
+
+```
+app/
+ ├── src/
+ │   ├── main/
+ │   │   ├── java/
+ │   │   ├── res/
+ │   │   └── AndroidManifest.xml
+ │   └── google-services.json
+ └── build.gradle.kts
+```
+
+---
+
+# ⚙ Prerequisites
+
+Pastikan telah menginstal:
 
 - Android Studio
-- JDK 11
-- Android SDK dengan API level yang sesuai
-- Emulator atau perangkat Android yang terhubung
+- JDK 11 atau lebih baru
+- Android SDK
+- Emulator Android atau perangkat fisik
 
-## Cara Menjalankan
+---
 
-1. Clone repository ini.
-2. Buka project di Android Studio.
-3. Tunggu proses sync Gradle selesai.
-4. Pilih emulator/perangkat Android.
-5. Jalankan project dengan salah satu perintah berikut:
+# 🚀 Getting Started
+
+## 1. Clone Repository
+
+```bash
+git clone https://github.com/athyzr/LeftOverLove.git
+```
+
+## 2. Open Project
+
+Buka project menggunakan Android Studio.
+
+## 3. Sync Gradle
+
+Tunggu hingga proses Gradle Sync selesai.
+
+## 4. Run Application
+
+Melalui Android Studio tekan tombol **Run**, atau gunakan command berikut.
 
 ### Windows
+
 ```bash
 gradlew.bat assembleDebug
 ```
 
-### Linux/macOS
+### Linux / macOS
+
 ```bash
 ./gradlew assembleDebug
 ```
 
-Alternatif lain, jalankan langsung dari Android Studio dengan tombol Run.
+---
 
-## Struktur Project
+# 🔥 Firebase Configuration
 
-- app/src/main/java: kode utama aplikasi
-- app/src/main/res: resource seperti drawable, layout, string, dan tema
-- app/google-services.json: konfigurasi Firebase untuk aplikasi
+Project menggunakan layanan Firebase berikut:
 
-## Catatan Firebase
+- Firebase Authentication
+- Firebase Firestore
+- Firebase Realtime Database
 
-Project ini telah dilengkapi dengan file Firebase config di [app/google-services.json](app/google-services.json). Pastikan Anda menggunakan project Firebase yang sesuai agar fitur autentikasi dan database dapat berjalan dengan benar.
+Pastikan file berikut tersedia:
 
-## Lisensi
+```
+app/google-services.json
+```
 
-Proyek ini dibuat untuk kebutuhan pengembangan aplikasi Android dan dapat dikembangkan lebih lanjut sesuai kebutuhan tim.
+Apabila menggunakan project Firebase yang berbeda, ganti file konfigurasi tersebut sesuai project milik Anda.
+
+---
+
+# 📄 License
+
+This project was created for educational and portfolio purposes. Feel free to fork and further develop it for learning.
