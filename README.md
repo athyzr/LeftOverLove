@@ -18,15 +18,15 @@ Ingin mencoba aplikasi tanpa melakukan build project?
 
 | Home |
 |------|
-![](docs/screenshots/beranda.jpeg) |
+| <img src="docs/screenshots/beranda.jpeg" width="250"/> |
 
 | Food Detail | Restaurant Detail | Donation History |
-|--------------|-------------------|----------|
-| ![](docs/screenshots/DetailMakanan.jpeg) | ![](docs/screenshots/DetailResto.jpeg) | ![](docs/screenshots/RiwayatDonasi.jpeg) |
+|--------------|-------------------|------------------|
+| <img src="docs/screenshots/DetailMakanan.jpeg" width="220"/> | <img src="docs/screenshots/DetailResto.jpeg" width="220"/> | <img src="docs/screenshots/RiwayatDonasi.jpeg" width="220"/> |
 
 | Activity |
-|------------|
-| ![](docs/screenshots/aktivitas.jpeg) | 
+|----------|
+| <img src="docs/screenshots/aktivitas.jpeg" width="250"/> |
 
 ---
 
