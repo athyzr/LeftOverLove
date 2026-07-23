@@ -16,17 +16,17 @@ Ingin mencoba aplikasi tanpa melakukan build project?
 
 ## 📸 Screenshots
 
-| Splash Screen | Login | Home |
-|---------------|-------|------|
-| ![](docs/screenshots/splash.png) | ![](docs/screenshots/login.png) | ![](docs/screenshots/home.png) |
+| Home |
+|------|
+![](docs/screenshots/beranda.jpeg) |
 
-| Food Detail | Restaurant Detail | Donation |
+| Food Detail | Restaurant Detail | Donation History |
 |--------------|-------------------|----------|
-| ![](docs/screenshots/food-detail.png) | ![](docs/screenshots/restaurant-detail.png) | ![](docs/screenshots/donation.png) |
+| ![](docs/screenshots/DetailMakanan.jpeg) | ![](docs/screenshots/DetailResto.jpeg) | ![](docs/screenshots/RiwayatDonasi.jpeg) |
 
-| Favorites | Activity | Profile |
-|------------|----------|----------|
-| ![](docs/screenshots/favorite.png) | ![](docs/screenshots/activity.png) | ![](docs/screenshots/profile.png) |
+| Activity |
+|------------|
+| ![](docs/screenshots/aktivitas.jpeg) | 
 
 ---
 
